@@ -32,7 +32,7 @@
     <!-- Start your project here-->
 
     <!-- Image and text -->
-  <nav class="navbar navbar-light bg-dark ">
+  <nav class="navbar navbar-light bg-dark w-100">
     <div class="container-fluid">
       <a class="navbar-brand bg-dark text-warning" href="#">
           <img
@@ -47,7 +47,7 @@
   </nav>
 
   <!-- Start of Carousel! -->
-  <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide w-100" data-mdb-ride="carousel">
     <ol class="carousel-indicators">
       <li
         data-mdb-target="#carouselExampleCaptions"
@@ -109,9 +109,11 @@
     </a>
   </div>
   <!-- End of Carousel! -->
-  <h1 class="card-title text-center"> <em>Отзывы наших клиентов</em>  </h1>
+  <div class="text-center mb-4 text-white bg-dark">
+  <h1 class="card-title "> <em>Отзывы наших клиентов</em>  </h1>
+  </div>
   <!-- News jumbotron -->
-<div class="jumbotron text-center hoverable p-4">
+<div class="jumbotron text-center hoverable p-4 w-100">
 
   <!-- Grid row -->
   <div class="row">
@@ -268,7 +270,7 @@
     <div class="col-lg-7">
 
       <!--Google map-->
-      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+      <div id="map-container-google-11" class="z-depth-3-half map-container-6" style="height: 400px">
         <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
           frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
@@ -308,7 +310,7 @@
 
 </div>
 
-  <footer class="bg-dark text-white text-center text-lg-start">
+  <footer class="bg-dark text-white text-center text-lg-start w-100">
     <!-- Grid container -->
     <div class="container p-4">
       <!--Grid row-->
@@ -393,64 +395,6 @@
     <script type="text/javascript" src="js/mdb.js"></script>
     <!--Custom scripts-->
     <script>
-
-function validateForm() {
-    // var x =  document.getElementById('name').value;
-    // if (x == "") {
-    //     document.getElementById('status').innerHTML = "Name cannot be empty";
-    //     return false;
-    // }
-    // x =  document.getElementById('email').value;
-    // if (x == "") {
-    //     document.getElementById('status').innerHTML = "Email cannot be empty";
-    //     return false;
-    // } else {
-    //     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    //     if(!re.test(x)){
-    //         document.getElementById('status').innerHTML = "Email format invalid";
-    //         return false;
-    //     }
-    // }
-    // x =  document.getElementById('subject').value;
-    // if (x == "") {
-    //     document.getElementById('status').innerHTML = "Subject cannot be empty";
-    //     return false;
-    // }
-    // x =  document.getElementById('message').value;
-    // if (x == "") {
-    //     document.getElementById('status').innerHTML = "Message cannot be empty";
-    //     return false;
-    // }
- //get input field values data to be sent to server
-    document.getElementById('status').innerHTML = "Sending...";
-    formData = {
-        'name'     : $('input[name=name]').val(),
-        'email'    : $('input[name=email]').val(),
-        'subject'  : $('input[name=subject]').val(),
-        'message'  : $('textarea[name=message]').val()
-    };
-
-
-   $.ajax({
-    url : "mail.php",
-    type: "POST",
-    data : formData,
-    success: function(data, textStatus, jqXHR)
-    {
-
-        $('#status').text(data.message);
-        if (data.code) //If mail was sent successfully, reset the form.
-        $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-    },
-    error: function (jqXHR, textStatus, errorThrown)
-    {
-        $('#status').text(jqXHR);
-    }
-});
-
-
-
-}
     </script>
   </body>
 </html>
