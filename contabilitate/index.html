@@ -19,10 +19,11 @@
   </head>
   <body>
     <!-- Start your project here-->
-<!-- Image and text -->
+
+    <!-- Image and text -->
   <nav class="navbar navbar-light bg-dark ">
     <div class="container-fluid">
-      <a class="navbar-brand bg-dark" href="#">
+      <a class="navbar-brand bg-dark text-warning" href="#">
           <img
             src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
             height="30"
@@ -33,6 +34,71 @@
       </a>
     </div>
   </nav>
+
+  <!-- Start of Carousel! -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+    <ol class="carousel-indicators">
+      <li
+        data-mdb-target="#carouselExampleCaptions"
+        data-mdb-slide-to="0"
+        class="active"
+      ></li>
+      <li data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="1"></li>
+      <li data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://mdbootstrap.com/img/new/slides/041.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ваш бизнес в надежных руках.</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://mdbootstrap.com/img/new/slides/042.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Мы не простые опперационисты, а высококвалифицированный специалисты.</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://mdbootstrap.com/img/new/slides/043.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Тут что-то придумаете </h5>
+        </div>
+      </div>
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#carouselExampleCaptions"
+      role="button"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#carouselExampleCaptions"
+      role="button"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <!-- End of Carousel! -->
+
 
   <footer class="bg-dark text-white text-center text-lg-start">
     <!-- Grid container -->
