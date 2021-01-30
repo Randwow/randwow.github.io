@@ -99,52 +99,102 @@
     </a>
   </div>
   <!-- End of Carousel! -->
-  <section class="form-dark">
+<!--Section: Contact v.2-->
+<section class="mb-4">
 
-    <div class="card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');">
-        <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-2">
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
 
-            <!--Header-->
-            <div class="text-center">
-                <h3 class="white-text mb-5 mt-4 font-weight-bold"><strong>CONTACT</strong> <a class="green-text font-weight-bold"><strong> US</strong></a></h3>
-            </div>
+  <div class="row">
 
-            <!--Body-->
-            <div class="md-form">
-                <input type="text" id="Form-email5" class="form-control white-text">
-                <label for="Form-email5">Your name</label>
-            </div>
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-            <div class="md-form">
-                <input type="text" id="Form-pass5" class="form-control">
-                <label for="Form-pass5">Your mail</label>
-            </div>
+              <!--Grid row-->
+              <div class="row">
 
-            <div class="md-form mb-5">
-                <textarea type="text" id="message5" name="message5" rows="2" class="form-control md-textarea white-text"></textarea>
-                <label for="message5">Your message</label>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="checkbox7">
-                    <label for="checkbox7" class="form-check-label white-text">Subscribe to our<a href="#" class="green-text font-weight-bold"> newsletter?</a></label>
-                </div>
-            </div>
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
 
-            <!--Grid row-->
-            <div class="row d-flex align-items-center">
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="text-center mb-3 col-md-12">
-                    <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1 waves-effect waves-light">Send message</button>
-                </div>
-                <!--Grid column-->
+              </div>
+              <!--Grid row-->
 
-            </div>
-            <!--Grid row-->
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
 
-        </div>
-    </div>
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Кишинев, ул Митрополит Ваарлам </p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+ 373 (69) 15 85 18</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p></p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
 
 </section>
+<!--Section: Contact v.2-->
 
   <footer class="bg-dark text-white text-center text-lg-start">
     <!-- Grid container -->
