@@ -29,32 +29,9 @@
   </head>
 
   <body>
-    <!-- Start your project here-->
-
-    <!-- Image and text -->
-  <!-- <nav class="navbar navbar-light w-100" style="background-color: black;">
-    <div class="container-fluid">
-      <a class="navbar-brand text-warning" href="https://randwow.github.io/contabilitate/index.html">
-          <img
-            src="img/logo.png"
-            height="30"
-            alt=""
-            loading="lazy"
-          />
-        Antares Consulting
-      </a> 
-      <button type="button" class="btn btn-light" href="https://randwow.github.io/contabilitate/contact_us.html">
-        <a href="https://randwow.github.io/contabilitate/contact_us.html"> 
-          Contact Us 
-        </a> 
-      </button>
-    </div>
-  </nav>
-  <span class="border-bottom border-warning w-75">
-</span> -->
 <header>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar sticky">
     <div class="container">
       <a class="navbar-brand" href="#"><strong>Antares Consulting</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
@@ -440,7 +417,23 @@
   })
     </script>
     <script>
-      new WOW().init();
+      // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
       </script>
   </body>
 </html>
