@@ -112,7 +112,7 @@ h5 {
   border-top: 3px solid #fff;
   width: 80px;
 }
-.navbar {
+#navbar {
   
   visibility:"hidden" !important;
   background-color: #0010;
@@ -141,5 +141,4 @@ h5 {
   background-color: #ddd;
   color: black;
 }
-
 
