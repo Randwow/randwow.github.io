@@ -100,16 +100,25 @@ header,
 }
 
 .myimage{
-  background-image: url("img/background_image.png");
   background-repeat: no-repeat; 
   background-size: cover;
    background-position: center center;
-   filter:brightness(90%);
+   filter:brightness(50%);
+   width: 100%;
+   height: 100%;
 }
 .mt{
-  margin-top: 15%;
+  margin-top: 10%;
 }
 .mybg{
   background-color: #0010 ;
   /* height: 25px; */
+}
+@media (min-width: 768px) { 
+  .mt{
+  margin-top: 20%;
+  } 
+  .myimage{
+     filter:brightness(90%);
+  }
 }
