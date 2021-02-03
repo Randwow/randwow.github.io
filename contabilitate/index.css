@@ -99,8 +99,9 @@ header,
 }
 
 .myimage{
-  background-image: src('img/background_image.png'); 
+  background-image: url("img/background_image.png");
   background-repeat: no-repeat; 
   background-size: cover;
    background-position: center center;
+   filter:brightness(90%);
 }
