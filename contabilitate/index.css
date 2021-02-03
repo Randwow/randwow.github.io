@@ -97,3 +97,10 @@ header,
     height: 100vh;
   }
 }
+
+.myimage{
+  background-image: src('img/background_image.png'); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+   background-position: center center;
+}
