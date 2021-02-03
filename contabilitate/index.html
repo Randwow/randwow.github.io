@@ -410,15 +410,14 @@ crossorigin="anonymous"></script>
     <!-- Bootstrap tooltips -->
     </script>
     <script>
- window.onscroll = function() {scrollFunction()};
 
  $(window).on('scroll',function(){
 var height = $(window).scrollTop();
 if(height > 320){
-$('#nav-js').addClass('active')
+$('.navbar').addClass('active')
 }
 else {
-$('#nav-js').removeClass('active')
+$('.navbar').removeClass('active')
 }
 });
       </script>

@@ -90,3 +90,15 @@
   color: black;
 }
 
+.navbar{
+  background-color: #0010;
+  Transition:0.5s;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  }
+  .navbar.active {
+  Background-color:white;
+  text-decoration-color: black;
+  }
