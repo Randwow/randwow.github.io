@@ -82,3 +82,18 @@
   .navbar.active {
   Background-color:white !important;
   }
+  html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
