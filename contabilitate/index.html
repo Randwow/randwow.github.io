@@ -29,21 +29,24 @@
   </head>
 
   <body>
+    <!-- Start your project here-->
 <header>
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar sticky">
-    <div class="container">
-      <a class="navbar-brand" href="#"><strong>Antares Consulting</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-light w-100" style="background-color: black;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning" href="https://randwow.github.io/contabilitate/index.html">
+          <img
+            src="img/logo.png"
+            height="30"
+            alt=""
+            loading="lazy"
+          />
+        Antares Consulting
+      </a> 
+      <button type="button" class="btn btn-light" href="https://randwow.github.io/contabilitate/contact_us.html">
+        <a href="https://randwow.github.io/contabilitate/contact_us.html"> 
+          Contact Us 
+        </a> 
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-        <form class="form-inline">
-          <div class="md-form my-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          </div>
-        </form>
-      </div>
     </div>
   </nav>
   <!-- Navbar -->
@@ -417,21 +420,13 @@
   })
     </script>
     <script>
-      // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+ window.onscroll = function() {scrollFunction()};
 
-// Get the header
-var header = document.getElementById("myHeader");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+function scrollFunction() {
+  if (document.body.scrollTop > document.getElementsByClassName("w-100") || document.documentElement.scrollTop > document.getElementsByClassName("w-100")) {
+    document.getElementById("navbar").style.backgroundColor = "white";
   } else {
-    header.classList.remove("sticky");
+    document.getElementById("navbar").style.backgroundColor = "white";
   }
 }
       </script>
