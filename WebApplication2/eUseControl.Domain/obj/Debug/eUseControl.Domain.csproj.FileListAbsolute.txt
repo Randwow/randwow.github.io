@@ -1,0 +1,9 @@
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Domain\bin\Debug\eUseControl.Domain.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Domain\bin\Debug\eUseControl.Domain.pdb
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Domain\bin\Debug\eUseControl.Helpers.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Domain\bin\Debug\eUseControl.Helpers.pdb
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Domain\obj\Debug\eUseControl.Domain.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Domain\obj\Debug\eUseControl.Domain.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Domain\obj\Debug\eUseControl.Domain.csproj.CopyComplete
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Domain\obj\Debug\eUseControl.Domain.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Domain\obj\Debug\eUseControl.Domain.pdb

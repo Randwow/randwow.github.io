@@ -1,0 +1,6 @@
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Helpers\bin\Debug\eUseControl.Helpers.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Helpers\bin\Debug\eUseControl.Helpers.pdb
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.pdb

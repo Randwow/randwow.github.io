@@ -1,0 +1,210 @@
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    .heading {
+        font-weight: 700;
+        color: #5d4267;
+      }
+      .card.colorful-card .testimonial-card .card-up {
+        height: 95px;
+      }
+      .card.colorful-card .testimonial-card .avatar {
+        border: 3px solid #fff !important;
+      }
+      .card.booking-card {
+        background-color: #c7f2e3;
+      }
+      .card.booking-card .fa {
+        color: #f7aa00;
+      }
+      .card.booking-card .card-body .card-text {
+        color: #db2d43;
+      }
+      .card.card.booking-card .chip {
+        background-color: #87e5da;
+      }
+      .card.booking-card .card-body hr {
+        border-top: 1px solid #f7aa00;
+      }
+      .mimosa {
+        background-color: #F0C05A;
+      }
+      .fuchsia-rose-text {
+        color: #db0075;
+      }
+      .aqua-sky-text {
+        color: #5cc6c3;
+      }
+      .mimosa-text {
+        color: #F0C05A;
+      }
+      .list-inline-item .fas, .list-inline-item .far {
+        font-size: .8rem;
+      }
+      .chili-pepper-text {
+        color: #9B1B30;
+      }
+      .collapse-content .fa.fa-heart:hover {
+        color: #f44336 !important;
+      }
+      .collapse-content .fa.fa-share-alt:hover {
+        color: #0d47a1 !important;
+      }
+      .card-wrapper.card-action {
+        min-height: 400px;
+      }
+
+.shadow-custom {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .25), 0 3px 16px 15px rgba(0, 0, 0, 0.47) !important;
+}
+.filter{
+  filter:brightness(30%);
+}
+
+.navbar{
+  background-color: #0010;
+  Transition:0.5s;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  }
+  .navbar.active {
+  background-color:white;
+  }
+
+
+.myimage{
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+   background-position: center center;
+   filter:brightness(40%);
+   width: 100%;
+   height: 100vh ;
+}
+.mt{
+  margin-top: 10%;
+}
+.mybg{
+  background-color: #0010 ;
+}
+@media (min-width: 768px) { 
+  .mt{
+  margin-top: 20%;
+  } 
+  .myimage{
+     filter:brightness(100%);
+  }
+}
+.wrapper{
+	height: 100%;
+	padding: 50px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+@media (max-width:767px){
+  .wrapper{padding: 50px 10px;
+  }
+  .myimage{
+    
+  }
+}
+
+/* Основные стили */
+
+/* Слайдер */
+.slick-slider{
+	min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+
+
+/* Конкретный слайдер */
+.slider {
+	position: relative;
+	padding: 0px 60px;
+}
+
+@media (max-width:767px){
+	.slider {
+		padding: 0px 40px;
+	}
+}
+
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+  height: 60px;
+  border: 0;
+}
+.slider .slick-arrow.slick-prev{
+	left: 0;
+	background: url('img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+	right: 0;
+	background: url('img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.2;
+}
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  padding-left: 0;
+}
+.slider .slick-dots li{
+	list-style: none;
+  margin: 0px 10px;
+  height: 15px;
+}
+.slider .slick-dots button{
+	font-size: 0;
+	width: 10px !important ;  
+	height: 10px;
+	background-color: #fff;
+  border-radius: 50%;
+
+  border: 0;
+}
+
+.slider .slick-dots li.slick-active button{
+	background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.slider__item {
+	padding: 0px 15px;
+}
+.slider__item img{
+	max-width: 100%;
+}
+

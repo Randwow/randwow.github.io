@@ -1,0 +1,16 @@
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\obj\Debug\eUseControl.BusinessLogic.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\obj\Debug\eUseControl.BusinessLogic.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\eUseControl.BusinessLogic1.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\eUseControl.BusinessLogic1.pdb
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\eUseControl.Domain.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\eUseControl.Helpers.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\eUseControl.Domain.pdb
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\eUseControl.Helpers.pdb
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\obj\Debug\eUseControl.BusinessLogic.csproj.CopyComplete
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\obj\Debug\eUseControl.BusinessLogic1.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\obj\Debug\eUseControl.BusinessLogic1.pdb
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\eUseControl.BusinessLogic1.dll.config
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\EntityFramework.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\EntityFramework.xml
+\\Mac\Home\Desktop\WebApplication2\eUseControl.BusinessLogic1\bin\Debug\EntityFramework.SqlServer.xml

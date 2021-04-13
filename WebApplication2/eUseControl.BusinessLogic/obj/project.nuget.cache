@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ge2+uxEJsR2380GIw/et2ZS1OEMymQeH5Z0c6VtoVi/qEiDNFHiMH+tkZxH7lTbfCFb4P2HEEq4thMDwM0R02A==",
+  "success": true,
+  "projectFilePath": "\\\\Mac\\Home\\Desktop\\WebApplication2\\eUseControl.BusinessLogic\\eUseControl.BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikitamakeev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nikitamakeev\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

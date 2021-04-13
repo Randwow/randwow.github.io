@@ -1,0 +1,35 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <title>Antares Con | @ViewBag.Title</title>
+    <!— Google Fonts —>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,70.." rel="stylesheet" />
+
+    @Styles.Render("~/bundles/bootstrap/css")
+    @Styles.Render("~/bundles/bootstrap/css")
+    @Styles.Render("~/bundles/font-awesome/css")
+    @Styles.Render("~/bundles/style/css")
+
+</head>
+<body>
+
+
+
+
+    @RenderBody()
+    @Html.Partial("_Footer")
+    @Scripts.Render("~/bundles/bootstrap/js")
+    @Scripts.Render("~/bundles/slick/js")
+    @Scripts.Render("~/bundles/script/js")
+</body>
+
+</html>
